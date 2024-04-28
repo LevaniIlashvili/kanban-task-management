@@ -1,8 +1,10 @@
+import Navbar from "./components/Navbar";
+
 function App() {
   return (
-    <>
-      <h1 className="text-red-500">hello world</h1>
-    </>
+    <main className="h-screen bg-[#E4EBFA]">
+      <Navbar />
+    </main>
   );
 }
 
